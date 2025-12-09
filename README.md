@@ -82,7 +82,7 @@ pip install -r src/requirements.txt
 
 Inside src/.env - change these variables
 
-OPENWEATHER_API_KEY=your_api_key         - Go to OpenWeather website and create an account.then log in and go to API Keys page.There API key is avaliable.
+|OPENWEATHER_API_KEY=your_api_key  |       - |Go to OpenWeather website and create an account.then log in and go to API Keys page.There API key is avaliable.|
 
 AWS_ACCESS_KEY_ID=your_access_key        - Go to AWS console and search for IAM. Then create a user there and it will generate AWS key ID and Secret access key.
 
