@@ -20,20 +20,35 @@ This project collects real-time weather information for multiple cities and stor
 
 ## Project Structure :
 weather-project/
+
 │
+
 ├── src/
+
 │   ├── weather.py
+
 │   ├── utils.py
+
 │   ├── requirements.txt
+
 │   ├── .env.example
+
 │
+
 ├── data/                (JSON files generated here)
+
 │
+
 ├── infra/               (Terraform infrastructure code)
+
 │   ├── main.tf
+
 │   ├── variables.tf
+
 │   ├── outputs.tf
+
 │
+
 └── README.md
 
 ## Technologies Used -
