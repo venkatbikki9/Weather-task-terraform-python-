@@ -79,28 +79,31 @@ source venv/bin/activate
 pip install -r src/requirements.txt
 
 3. Set up environment variables
+```
 
 Inside src/.env - change these variables
+```
+
 +-------------------------+------------------------------------------------------------+
-| VARIABLE NAME           | DESCRIPTION                                                |
+| VARIABLE NAME | DESCRIPTION |
 +-------------------------+------------------------------------------------------------+
-| OPENWEATHER_API_KEY     | Create an account on openweathermap.org                    |
-|                         | Go to Profile → My API Keys and copy the API key           |
+| OPENWEATHER_API_KEY | Create an account on openweathermap.org |
+| | Go to Profile → My API Keys and copy the API key |
 +-------------------------+------------------------------------------------------------+
-| AWS_ACCESS_KEY_ID       | AWS Console → IAM → Create user                            |
-|                         | Programmatic access enabled                                |
+| AWS_ACCESS_KEY_ID | AWS Console → IAM → Create user |
+| | Programmatic access enabled |
 +-------------------------+------------------------------------------------------------+
-| AWS_SECRET_ACCESS_KEY   | Generated along with AWS_ACCESS_KEY_ID                     |
-|                         | Shown only once during IAM user creation                   |
+| AWS_SECRET_ACCESS_KEY | Generated along with AWS_ACCESS_KEY_ID |
+| | Shown only once during IAM user creation |
 +-------------------------+------------------------------------------------------------+
-| AWS_REGION              | AWS region where the S3 bucket is created                  |
-|                         | Example: ap-south-1                                        |
+| AWS_REGION | AWS region where the S3 bucket is created |
+| | Example: ap-south-1 |
 +-------------------------+------------------------------------------------------------+
-| S3_BUCKET_NAME          | Name of the S3 bucket created using Terraform              |
-|                         | Example: weather-data-venkat                               |
+| S3_BUCKET_NAME | Name of the S3 bucket created using Terraform |
+| | Example: weather-data-venkat |
 +-------------------------+------------------------------------------------------------+
-| CITIES                  | Comma-separated list of city names                         |
-|                         | Example: Delhi,Hyderabad,Mumbai                            |
+| CITIES | Comma-separated list of city names |
+| | Example: Delhi,Hyderabad,Mumbai |
 +-------------------------+------------------------------------------------------------+
 
 4. Deploy Infrastructure with Terraform
