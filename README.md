@@ -83,7 +83,7 @@ pip install -r src/requirements.txt
 
 Inside src/.env - change these variables
 ```
-
+```
 +-------------------------+------------------------------------------------------------+
 | VARIABLE NAME | DESCRIPTION |
 +-------------------------+------------------------------------------------------------+
@@ -105,7 +105,7 @@ Inside src/.env - change these variables
 | CITIES | Comma-separated list of city names |
 | | Example: Delhi,Hyderabad,Mumbai |
 +-------------------------+------------------------------------------------------------+
-
+```
 4. Deploy Infrastructure with Terraform
 
 Go to the infra/ folder:
