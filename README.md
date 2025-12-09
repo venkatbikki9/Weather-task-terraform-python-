@@ -160,10 +160,11 @@ Print the public URL of each uploaded file
 
 ## SCREENSHOTS 
 
-<img width="1920" height="1080" alt="4  S3 bucket" src="https://github.com/user-attachments/assets/9fd25262-fbc1-4da9-a05c-eeb5f78fc4de" />
+<img width="1920" height="1024" alt="4  S3 bucket" src="https://github.com/user-attachments/assets/1c59b8b4-49bc-490a-b4a6-54fe2ccae8ae" />
 
-<img width="1920" height="1080" alt="5  S3 bucket objects" src="https://github.com/user-attachments/assets/701ce995-2ddb-4f55-8670-7f05fa98d233" />
+<img width="1920" height="1016" alt="5  S3 bucket objects" src="https://github.com/user-attachments/assets/e4300f79-a0a8-41dc-a864-b22cb4f5bc80" />
 
-<img width="1920" height="1080" alt="6  one of the objects" src="https://github.com/user-attachments/assets/9e682066-1793-4cb3-a8f0-0cdfad54cbf0" />
+<img width="1920" height="1022" alt="6  one of the objects" src="https://github.com/user-attachments/assets/7900106d-e314-4bf2-aa19-d04b9ba85e44" />
 
-<img width="1920" height="1080" alt="7  above object URL" src="https://github.com/user-attachments/assets/8a29b8da-45e6-4e99-8d55-50ba4419ebfd" />
+<img width="1920" height="1018" alt="7  above object URL" src="https://github.com/user-attachments/assets/ebbcf343-baab-4180-8fc3-325722d48676" />
+
