@@ -25,13 +25,13 @@ weather-project/
 
 ├── src/
 
-│   ├── weather.py
+│     ├── weather.py
 
-│   ├── utils.py
+│     ├── utils.py
 
-│   ├── requirements.txt
+│     ├── requirements.txt
 
-│   ├── .env.example
+│     ├── .env.example
 
 │
 
@@ -41,11 +41,11 @@ weather-project/
 
 ├── infra/               (Terraform infrastructure code)
 
-│   ├── main.tf
+│     ├── main.tf
 
-│   ├── variables.tf
+│     ├── variables.tf
 
-│   ├── outputs.tf
+│     ├── outputs.tf
 
 │
 
