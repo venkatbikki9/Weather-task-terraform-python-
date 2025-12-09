@@ -79,32 +79,40 @@ source venv/bin/activate
 pip install -r src/requirements.txt
 
 3. Set up environment variables
-```
+
 
 Inside src/.env - change these variables
+
 ```
-```
-+-------------------------+------------------------------------------------------------+
-| VARIABLE NAME | DESCRIPTION |
-+-------------------------+------------------------------------------------------------+
-| OPENWEATHER_API_KEY | Create an account on openweathermap.org |
-| | Go to Profile → My API Keys and copy the API key |
-+-------------------------+------------------------------------------------------------+
-| AWS_ACCESS_KEY_ID | AWS Console → IAM → Create user |
-| | Programmatic access enabled |
-+-------------------------+------------------------------------------------------------+
-| AWS_SECRET_ACCESS_KEY | Generated along with AWS_ACCESS_KEY_ID |
-| | Shown only once during IAM user creation |
-+-------------------------+------------------------------------------------------------+
-| AWS_REGION | AWS region where the S3 bucket is created |
-| | Example: ap-south-1 |
-+-------------------------+------------------------------------------------------------+
-| S3_BUCKET_NAME | Name of the S3 bucket created using Terraform |
-| | Example: weather-data-venkat |
-+-------------------------+------------------------------------------------------------+
-| CITIES | Comma-separated list of city names |
-| | Example: Delhi,Hyderabad,Mumbai |
-+-------------------------+------------------------------------------------------------+
++------------------------------------------------------------------------+
+OPENWEATHER_API_KEY=your_api_key
+Go to the OpenWeather website and create an account.
+Then log in and go to the API Keys page.
+The API key is available there.
++------------------------------------------------------------------------+
+
+AWS_ACCESS_KEY_ID=your_access_key
+Go to the AWS Console and search for IAM.
+Create a user.
+It will generate the AWS Access Key ID and Secret Access Key.
++------------------------------------------------------------------------+
+
+AWS_SECRET_ACCESS_KEY=your_secret_key
+Generated along with the AWS Access Key ID.
++------------------------------------------------------------------------+
+
+AWS_REGION=ap-south-1
+Change the region in the AWS Console depending on your location.
++------------------------------------------------------------------------+
+
+S3_BUCKET_NAME=your_bucket_name
+Give a bucket name.
++------------------------------------------------------------------------+
+
+CITIES=Delhi,Hyderabad,Mumbai
+Add the names of the cities for which weather data is required.
++------------------------------------------------------------------------+
+
 ```
 4. Deploy Infrastructure with Terraform
 
