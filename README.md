@@ -67,6 +67,11 @@ requests
 
 python-dotenv
 
+## Arhcitetural diagram
+
+![s3 bucket process](https://github.com/user-attachments/assets/3afedb37-bca0-428b-97ab-94846b28324a)
+
+
 ## Setup-
 1. Create and activate the virtual environment
 
