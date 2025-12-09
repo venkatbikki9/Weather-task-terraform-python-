@@ -81,19 +81,27 @@ pip install -r src/requirements.txt
 3. Set up environment variables
 
 Inside src/.env - change these variables
-
-OPENWEATHER_API_KEY=your_api_key         -  Go to OpenWeather website and create an account.then log in and go to API Keys page.There API key is avaliable.
-
-AWS_ACCESS_KEY_ID=your_access_key        -  Go to AWS console and search for IAM. Then create a user there and it will generate AWS key ID and Secret access key.
-
-AWS_SECRET_ACCESS_KEY=your_secret_key
-
-AWS_REGION=ap-south-1                    -  Change the region in the console depending on the region.
-
-S3_BUCKET_NAME=your_bucket_name          -  Give a bucket name
-
-CITIES=Delhi,Hyderabad,Mumbai            -  Add the names of the cities we need the weather data from.
-
++-------------------------+------------------------------------------------------------+
+| VARIABLE NAME           | DESCRIPTION                                                |
++-------------------------+------------------------------------------------------------+
+| OPENWEATHER_API_KEY     | Create an account on openweathermap.org                    |
+|                         | Go to Profile → My API Keys and copy the API key           |
++-------------------------+------------------------------------------------------------+
+| AWS_ACCESS_KEY_ID       | AWS Console → IAM → Create user                            |
+|                         | Programmatic access enabled                                |
++-------------------------+------------------------------------------------------------+
+| AWS_SECRET_ACCESS_KEY   | Generated along with AWS_ACCESS_KEY_ID                     |
+|                         | Shown only once during IAM user creation                   |
++-------------------------+------------------------------------------------------------+
+| AWS_REGION              | AWS region where the S3 bucket is created                  |
+|                         | Example: ap-south-1                                        |
++-------------------------+------------------------------------------------------------+
+| S3_BUCKET_NAME          | Name of the S3 bucket created using Terraform              |
+|                         | Example: weather-data-venkat                               |
++-------------------------+------------------------------------------------------------+
+| CITIES                  | Comma-separated list of city names                         |
+|                         | Example: Delhi,Hyderabad,Mumbai                            |
++-------------------------+------------------------------------------------------------+
 
 4. Deploy Infrastructure with Terraform
 
