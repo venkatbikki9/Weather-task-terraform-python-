@@ -159,15 +159,19 @@ Upload each JSON file to your S3 bucket
 Print the public URL of each uploaded file
 
 ## SCREENSHOTS 
-```
+_______________________________________________________________________________________________________________________________________________
+
 <img width="1920" height="1024" alt="4  S3 bucket" src="https://github.com/user-attachments/assets/1c59b8b4-49bc-490a-b4a6-54fe2ccae8ae" />
-```
-```
+
+________________________________________________________________________________________________________________________________________________
+
 <img width="1920" height="1016" alt="5  S3 bucket objects" src="https://github.com/user-attachments/assets/e4300f79-a0a8-41dc-a864-b22cb4f5bc80" />
-```
-```
+
+_________________________________________________________________________________________________________________________________________________
+
 <img width="1920" height="1022" alt="6  one of the objects" src="https://github.com/user-attachments/assets/7900106d-e314-4bf2-aa19-d04b9ba85e44" />
-```
-```
+
+__________________________________________________________________________________________________________________________________________________
+
 <img width="1920" height="1018" alt="7  above object URL" src="https://github.com/user-attachments/assets/ebbcf343-baab-4180-8fc3-325722d48676" />
-```
+
